@@ -7,8 +7,13 @@
     font-weight: bold;
     padding: 10px;
     border: none;
+    cursor: pointer;
+    position: relative;
     //background-color: orangered;
 
+    &:active{
+        bottom: -2px;
+    }
 
     &--white{
         background-color: white;
