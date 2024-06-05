@@ -6,9 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  onButtonClicked(){
+    console.log('onCardButtonClicked')
+    // chamada HTTP
+  }
+
+}
+
+/*
 
   buttonClicked(){
     console.log('Button Clicked');
   }
-
-}
+*/

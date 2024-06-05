@@ -6,14 +6,16 @@
     <app-card
     [planType]="'Simples'"
     [planPrice]= "100"
-    [cardStyle]="'orange'"    
+    [cardStyle]="'orange'" 
+    (buttonClicked)="onButtonClicked()"   
     ></app-card>
     
     
     <app-card
     [planType]="'Completo'"
     [planPrice]= "200"
-    [cardStyle]="'purple'"    
+    [cardStyle]="'purple'" 
+    (buttonClicked)="onButtonClicked()"    
     ></app-card>
 </div>
 

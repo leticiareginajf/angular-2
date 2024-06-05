@@ -14,7 +14,7 @@ export class ButtonComponent {
   buttonStyle: 'white' | 'purple' = 'white';
 
   @Input({ alias: 'disabled' })
-  isDisabled: boolean = true;
+  isDisabled: boolean = false;
 
 
   @Output('clicked') buttonClickedEmitt = new EventEmitter<void>();
